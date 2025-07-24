@@ -1,4 +1,4 @@
-# 🛍️ NavegaLasRutas - Castillo
+# 🛍️ Segunda entrega React Coderhouse - Mateo Castillo
 
 Este proyecto es una tienda online realizada con **React** como parte de la segunda entrega del curso de React de Coderhouse.  
 Se enfoca en implementar **React Router** para lograr la navegación entre distintas vistas de productos, filtrado por categorías y vista detallada de cada producto.
