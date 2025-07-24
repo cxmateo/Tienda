@@ -1,4 +1,4 @@
- 🛍️ NavegaLasRutas + TuApellido
+# 🛍️ NavegaLasRutas - Castillo
 
 Este proyecto es una tienda online realizada con **React** como parte de la segunda entrega del curso de React de Coderhouse.  
 Se enfoca en implementar **React Router** para lograr la navegación entre distintas vistas de productos, filtrado por categorías y vista detallada de cada producto.
@@ -19,29 +19,29 @@ Se enfoca en implementar **React Router** para lograr la navegación entre disti
 
 ## 🧠 Tecnologías utilizadas
 
-- React
-- React Router DOM
-- HTML & CSS
+- React  
+- React Router DOM  
+- HTML & CSS  
 - JavaScript (ES6+)
 
 ---
 
 ## 🗂️ Estructura del proyecto
 
+```
 src/
 │
 ├── components/
-│ ├── NavBar.jsx
-│ ├── ItemListContainer.jsx
-│ ├── ItemDetailContainer.jsx
-│ └── ...
+│   ├── NavBar.jsx
+│   ├── ItemListContainer.jsx
+│   ├── ItemDetailContainer.jsx
+│   └── ...
 │
 ├── data.js
 ├── App.js
 ├── App.css
 └── index.js
-
-yaml
+```
 
 > Todos los componentes se mantienen en la carpeta `components` por simplicidad. No se utilizó estructura en subcarpetas.
 
@@ -50,38 +50,47 @@ yaml
 ## 🚀 Cómo correr el proyecto
 
 1. Cloná el repositorio:
+
    ```bash
    git clone https://github.com/cxmateo/Tienda.git
+   ```
 
 2. Instalá las dependencias:
 
-```bash
-npm install
-```
+   ```bash
+   npm install
+   ```
+
 3. Iniciá el servidor de desarrollo:
 
-```bash
-npm start```
-Accedé a la app desde http://localhost:3000
+   ```bash
+   npm start
+   ```
 
-✅ Requisitos cumplidos
- Rutas para catálogo completo, por categoría y vista de detalle.
+4. Accedé a la app desde:  
+   [http://localhost:3000](http://localhost:3000)
 
- Uso de React Router (useParams, Routes, Route, etc.).
+---
 
- Llamadas simuladas asincrónicas.
+## ✅ Requisitos cumplidos
 
- División entre contenedores y presentacionales.
+- ✅ Rutas para catálogo completo, por categoría y vista de detalle.  
+- ✅ Uso de React Router (`useParams`, `Routes`, `Route`, etc.).  
+- ✅ Llamadas simuladas asincrónicas.  
+- ✅ División entre contenedores y presentacionales.  
+- ✅ `.map()` para renderizar productos con `key`.  
+- ✅ Página 404 personalizada.
 
- .map() para renderizar productos con key.
+---
 
- Página 404 personalizada.
+## 💡 Autor
 
-💡 Autor
-Mateo Leonel Castillo
-Curso ReactJS - Coderhouse
+**Mateo Leonel Castillo**  
+Curso ReactJS - Coderhouse  
+GitHub: [@cxmateo](https://github.com/cxmateo)
 
-GitHub: @cxmateo
+---
 
-📝 Licencia
-Este proyecto es de uso educativo.
+## 📝 Licencia
+
+Este proyecto es de uso **educativo**.
