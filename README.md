@@ -53,14 +53,15 @@ yaml
    ```bash
    git clone https://github.com/cxmateo/Tienda.git
 
-Instalá las dependencias:
+2. Instalá las dependencias:
 
-bash
+```bash
 npm install
-Iniciá el servidor de desarrollo:
+```
+3. Iniciá el servidor de desarrollo:
 
-bash
-npm start
+```bash
+npm start```
 Accedé a la app desde http://localhost:3000
 
 ✅ Requisitos cumplidos
